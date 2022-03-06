@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  margin-left: 165px;
+  margin-right: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.logo {
+  position: relative;
+  width: 157.59px;
+  height: 31.5px;
+  margin-top: 65px;
+}
+
+@font-face {
+  font-family: "JosefinSans-Bold";
+  src: url("fonts/JosefinSans-Bold.ttf");
+}
+
+h1 {
+  position: absolute;
+  top: 201px;
+}
+
+.space {
+  position: absolute;
+}
+
+.light {
+  position: relative;
+  color: hsla(0, 36%, 70%, 1);
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 69px;
+  line-height: 69px;
+  letter-spacing: 0.2em;
+}
+
+.dark {
+  color: hsla(0, 6%, 24%, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 68px;
+  line-height: 68px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.note {
+  color: hsla(360, 36%, 70%, 1);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+  margin-top: 40px;
+  line-height: 2rem;
+}
+
+.notes {
+  visibility: hidden;
+}
+
+.down {
+  position: absolute;
+  margin-top: 40px;
+}
+
+.downs {
+  visibility: hidden;
+}
+
+input {
+  position: relative;
+  outline: none;
+  border: 1px solid #ce9797;
+  width: 445px;
+  height: 55px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: #EE8C8C;
+}
+
+.baby {
+  visibility: hidden;
+}
+
+.box {
+  visibility: hidden;
+}
+
+.clip {
+  width: 100px;
+  height: 55px;
+  background: linear-gradient(90deg, #f8bfbf 0%, #ee8c8c 92%);
+  box-shadow: 0px 15px 30px 5px rgba(248, 191, 191, 0.25);
+  border-radius: 70px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.right {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  /* height: 100vh; */
+}
+
+.hero {
+  width: 610px;
+  /* height: 100vh; */
+}
+
+.h-mobile {
+  visibility: hidden;
+}
+
+.bo {
+  visibility: hidden;
+}
+
+.align {
+  visibility: hidden;
+}
+
+.dude {
+  visibility: hidden;
+}
+
+.small {
+  visibility: hidden;
+}
+
+.girl {
+  visibility: hidden;
+}
+
+.boy {
+  visibility: hidden;
+}
+
+.big {
+  visibility: hidden;
+}
+
+.row {
+  visibility: hidden;
+}
+
+.none {
+  visibility: hidden;
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 375px;
+    margin-left: 0;
+    margin-top: 32px;
+    overflow-x: hidden;
+  }
+
+  .logo {
+    margin-left: 30px;
+    width: 100px;
+    height: 20.89px;
+    margin-top: 0;
+  }
+
+  .h-mobile {
+    visibility: visible;
+    width: 100%;
+    height: 250px;
+  }
+
+  .space {
+    margin-top: 213px;
+    text-align: center;
+  }
+
+  .light {
+    width: 166px;
+    height: 39px;
+  }
+
+  .dark {
+    width: 233px;
+    height: 84px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .note {
+    display: none;
+    visibility: hidden;
+  }
+
+  .dude {
+    display: none;
+  }
+
+  .notes {
+    color: hsla(360, 36%, 70%, 1);
+    visibility: visible;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14.2012px;
+    line-height: 14px;
+    text-align: center;
+    position: relative;
+    margin-top: 270px;
+  }
+
+  .down {
+    display: none;
+  }
+
+  .downs {
+    visibility: visible;
+    position: absolute;
+    align-items: center;
+    /* margin: 1px auto; */
+  }
+
+  .box {
+    position: relative;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .baby {
+    position: relative;
+    visibility: visible;
+    align-items: center;
+    width: 310px;
+    height: 46px;
+    border: 0.818182px solid #ce9797;
+    box-sizing: border-box;
+    border-radius: 46.6364px;
+    margin-top: 40px;
+    /* margin-right: 30px; */
+  }
+
+  .align {
+    visibility: visible;
+    display: grid;
+    grid-template-columns: 35px auto 35px;
+  }
+
+  .bo {
+    visibility: visible;
+  }
+
+  .girl {
+    position: absolute;
+    visibility: visible;
+  }
+
+  .boy {
+    position: relative;
+    visibility: visible;
+  }
+
+  .big {
+    visibility: visible;
+    position: absolute;
+    width: 65px;
+    height: 45px;
+    background: linear-gradient(90deg, #f8bfbf 0%, #ee8c8c 92%);
+    /* box-shadow: 0px 15px 30px 5px rgba(248, 191, 191, 0.25); */
+    border-radius: 57.2727px;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    border: none;
+  }
+
+  .row {
+    visibility: visible;
+  }
+}
